@@ -1,0 +1,8 @@
+https://golangcode.com/print-the-current-memory-usage/
+
+https://golangcode.com/handle-ctrl-c-exit-in-terminal/
+
+https://golangcode.com/custom-error-messages/
+
+https://golangcode.com/print-variable-type/
+

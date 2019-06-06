@@ -1,0 +1,18 @@
+
+1 install daemonize  daemonize
+  yum install daemonize
+
+2 sudo mkdir /var/run/scan  && chown x.x /var/run/scan    <- x.x - is php_user
+
+3 cp url.txt ~/work_dir_php_user && cp scan5  work_dir_php_user && chmod +x scan4
+
+
+4 /usr/sbin/daemonize -p /var/run/scan/scan.pid -c work_dir_php_user work_dir_php_user/scan5 x 
+
+5 tail -f scan5.log
+6 top -d 10 | grep scan
+
+
+ps. scan5 x   <- x for disable some output to screen 
+
+4 pizdec, must work :)
